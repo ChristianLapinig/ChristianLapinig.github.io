@@ -1,3 +1,7 @@
 .App {
   color: rgb(197, 206, 214);
 }
+
+.header-intro {
+  max-width: 540px;
+}
