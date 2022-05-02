@@ -1,7 +1,13 @@
 .App {
-  color: rgb(197, 206, 214);
+  color: rgb(233, 213, 218);
 }
 
 .header-intro {
   max-width: 540px;
+}
+
+@media only screen and (max-width: 640px) {
+  .header-intro {
+    max-width: 100%;
+  }
 }
