@@ -2,6 +2,10 @@
   color: rgb(247, 204, 172);
 }
 
+.nav-bar {
+  background-color: rgb(58, 56, 69);
+}
+
 .header-intro {
   max-width: 540px;
 }
