@@ -3,7 +3,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <div className="w-full lg:w-3/5 lg:mx-auto md:mx-auto p-5">
+      <div className="w-full p-5 lg:w-3/5 lg:mx-auto md:mx-auto lg:p-10">
         <header>
           <h1 className="text-xl">Hi, World!</h1>
           <h2 className="text-2xl lg:text-5xl md:text-3xl font-bold pt-3">
