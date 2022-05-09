@@ -1,7 +1,9 @@
+import Section from 'components/Shared/Section';
+
 const About = () => (
-	<section id="about" className="lg:p-20 mt-10">
-		<h2 className="font-bold text-xl lg:text-2xl">About</h2>
-	</section>
+	<Section link={'about'} header={'About'}>
+		About content goes here
+	</Section>
 );
 
 export default About;

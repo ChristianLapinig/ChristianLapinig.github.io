@@ -1,5 +1,5 @@
 const Header = () => (
-	<header id="home" className="lg:p-20">
+	<header id="home" className="flex flex-col justify-center lg:min-h-screen lg:p-20">
 		<h1 className="text-xl lg:text-3xl md:text-2xl">Hi, World!</h1>
 		<h2 className="text-2xl lg:text-7xl md:text-3xl font-bold pt-3">
 			I'm Christian Lapinig
