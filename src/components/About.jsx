@@ -30,10 +30,10 @@ const About = () => (
 					</a>.
 				</p>
 			</div>
-			<div className="mb-5 lg:pl-[10rem] lg:w-2/4">
+			<div className="mb-5 lg:pl-[8rem] lg:w-2/4">
 				<img
 					id="headshot"
-					className="h-auto lg:max-w-[375px]"
+					className="rounded-lg h-auto lg:max-w-[375px]"
 					src={headshot}
 					alt="Christian Lapinig"
 				/>
