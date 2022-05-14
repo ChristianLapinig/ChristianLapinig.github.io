@@ -4,18 +4,19 @@ import Link from './Link';
 
 const Nav = () => {
 	const [isNavOpen, setIsNavOpen] = useState(false);
+	const genericHamburgerLineClass = 'block h-0.5';
 
 	return (
-		<nav className="nav-bar border-gray-200 px-2 sm:px-4 py-2.5 rounded shadow-lg">
+		<nav className="sticky top-0 z-50 nav-bar border-gray-200 px-2 sm:px-4 py-2.5 rounded shadow-lg">
 			<div className="container flex flex-wrap justify-between items-center mx-auto">
 				<a href="#home" className="flex flex-col text-left transition ease-in-out delay-150 hover:text-white duration-200">
 					Home
 				</a>
 				<div className="MOBILE-NAV flex lg:hidden">
 					<div className="HAMBURGER-ICON space-y-2" onClick={() => setIsNavOpen(true)}>
-						<span className="block h-0.5 w-8"></span>
-						<span className="block h-0.5 w-6"></span>
-						<span className="block h-0.5 w-4"></span>
+						<span className={`w-8 ${genericHamburgerLineClass}`} />
+						<span className={`w-6 ${genericHamburgerLineClass}`} />
+						<span className={`w-4 ${genericHamburgerLineClass}`} />
 					</div>
 
 					<div className={isNavOpen ? 'showMenuNav' : 'hideMenuNav'}>

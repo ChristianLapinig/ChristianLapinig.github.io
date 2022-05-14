@@ -8,7 +8,7 @@ const Section = ({ link, header, children }) => (
 			</h2>
 		</div>
 		<hr className="section-header-separator" />
-		<div className="flex flex-row mt-3">
+		<div className="mt-6">
 			{children}
 		</div>
 	</section>
