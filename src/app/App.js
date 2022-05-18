@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Nav />
-      <div className="w-full p-5 lg:w-3/5 lg:mx-auto md:mx-auto">
+      <div className="w-full p-5 lg:w-3/5 lg:mx-auto">
         <Header />
         <About />
         <Experience />
