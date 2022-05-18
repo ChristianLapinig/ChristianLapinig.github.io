@@ -33,7 +33,7 @@ const About = () => (
 			<div className="mb-5 lg:pl-[8rem] lg:w-2/4">
 				<img
 					id="headshot"
-					className="rounded-lg h-auto lg:max-w-[375px]"
+					className="rounded-lg shadow-xl h-auto lg:shadow-2xl lg:max-w-[375px]"
 					src={headshot}
 					alt="Christian Lapinig"
 				/>
